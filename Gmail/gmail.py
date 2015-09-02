@@ -6,14 +6,18 @@ Kasun Rathnayaka
 Web:http://kasunmadura.com
 twitter:kasunmaduraR
 
+Please change FROM and TO mail address and PASSWORD 
+
+And also change your SUBJECT and body
+
 '''
 import smtplib
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
  
  
-fromaddress = "kasunmaduraeng@gmail.com"
-toaddress = "suhada.fernando@pearson.com"
+fromaddress = "FROM mail"
+toaddress = "TO MAIL"
 msg = MIMEMultipart()
 msg['From'] = fromaddress
 msg['To'] = toaddress
